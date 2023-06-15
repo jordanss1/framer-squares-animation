@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { css } from "@emotion/react";
 import Box1 from "./components/Boxes/Box1";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (
