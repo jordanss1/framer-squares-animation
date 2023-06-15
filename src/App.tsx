@@ -8,7 +8,7 @@ function App() {
   return (
     <div
       css={css`
-        padding: 5rem;
+        padding: 20px;
       `}
     >
       <Box1 />
