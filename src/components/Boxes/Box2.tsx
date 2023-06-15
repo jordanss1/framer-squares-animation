@@ -2,7 +2,7 @@
 import { useRef, ReactElement } from "react";
 import { css } from "@emotion/react";
 import { AnimationProps, motion } from "framer-motion";
-import { defaultBox } from "../styles/emotion";
+import { defaultBox } from "../../styles/emotion";
 
 const Box2 = (): ReactElement => {
   const constraint = useRef(null);
