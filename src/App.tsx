@@ -6,6 +6,7 @@ import "./styles/App.css";
 import Box3 from "./components/Boxes/Box3";
 import Box4 from "./components/Boxes/Box4";
 import Box5 from "./components/Boxes/Box5";
+import BigBox from "./components/Boxes/BigBox";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         padding: 20px;
       `}
     >
+      <BigBox />
       <Box1 />
       <Box2 />
       <Box3 />
