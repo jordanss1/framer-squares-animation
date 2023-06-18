@@ -7,6 +7,7 @@ import Box3 from "./components/Boxes/Box3";
 import Box4 from "./components/Boxes/Box4";
 import Box5 from "./components/Boxes/Box5";
 import BigBox from "./components/Boxes/BigBox";
+import Box6 from "./components/Boxes/Box6/Box6";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Box3 />
       <Box4 />
       <Box5 />
+      <Box6 />
     </div>
   );
 }

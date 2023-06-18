@@ -16,6 +16,7 @@ const BigBox = (): ReactElement => {
   const backgroundVariants: Variants = {
     spinning: {
       background: [
+        null,
         "radial-gradient(circle at 150px -250px, rgb(1, 6, 164), transparent 80%)",
         "radial-gradient(circle at 0px -50px, rgb(0, 3, 164), transparent 80%)",
         "radial-gradient(circle at -150px 330px, rgb(0, 3, 164), transparent 80%)",
@@ -32,6 +33,7 @@ const BigBox = (): ReactElement => {
     },
     fastSpinning: {
       background: [
+        null,
         "radial-gradient(circle at 150px -250px, rgb(1, 6, 164), transparent 80%)",
         "radial-gradient(circle at 0px -50px, rgb(0, 3, 164), transparent 80%)",
         "radial-gradient(circle at -150px 330px, rgb(0, 3, 164), transparent 80%)",
@@ -42,7 +44,7 @@ const BigBox = (): ReactElement => {
       ],
       transition: {
         repeat: Infinity,
-        duration: 0.5,
+        duration: 1.5,
         ease: "linear",
       },
     },
@@ -73,7 +75,6 @@ const BigBox = (): ReactElement => {
       },
     },
   };
-  console.log(outerBoxAnimation);
 
   return (
     <div

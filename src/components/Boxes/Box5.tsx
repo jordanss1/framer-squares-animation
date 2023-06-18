@@ -54,6 +54,7 @@ const Box5 = (): ReactElement => {
     >
       {buttons.map((button) => (
         <button
+          key={button}
           onClick={() => {
             button === "Stop"
               ? control.stop()

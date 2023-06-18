@@ -51,6 +51,7 @@ const Box3 = (): ReactElement => {
       >
         {[1, 2, 3].map((ele) => (
           <motion.span
+            key={ele}
             variants={childVariant}
             css={css`
               width: 1px;
